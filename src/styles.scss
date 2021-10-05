@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: lightslategray;
+}
+
+@media(max-width: 768px) {
+    #header img {
+        margin: 0 auto;
+    }
+}
+
+#navigation {
+    .navbar {
+        border-bottom: 1px solid rgba(128, 0, 128, 0.082);
+        font-family: 'Alegreya Sans', sans-serif;
+        a { color: purple; }
+        a:hover {
+            color: #dedede;
+        }
+    }
+}
+
+#header {
+    background: url('assets/images/background.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: purple;
+    display: flex;
+    align-items: center;
+}
+#header .h1-title {
+    font-family: 'Akronim', cursive;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#footer {
+    padding: 2rem 0;
+    background-color: #aaa;
+    color: #eee;
+    a {
+        color: purple;
+    }
+    a:hover {
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+    }
+    .fas {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,21 @@
+.statistic {
+    padding: 5rem 0;
+    .card-text {
+        font-weight: bold;
+        font-size: 50px;
+        color: tomato;
+    }
+    .card-infected {
+        border-bottom-color: blue;
+        border-bottom-width: 10px;
+    }
+    .card-recovered {
+        border-bottom-color: lightgreen;
+        border-bottom-width: 10px;
+    }
+    .card-deaths {
+        border-bottom-color: lightsalmon;
+        border-bottom-width: 10px;
+    }
+
+}
